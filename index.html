@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Chanchal's Portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+     
+      <div class="container header-content">
+         <a href="#" class="logo"><span style="color: #d5d5d5;">C</span>R</a>
+
+         <!-- Mobile Menu Button -->
+         <button class="mobile-menu-toggle" id="mobileMenuToggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </button>
+
+         <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+
+            <!-- Dark/Light Mode Toggle -->
+            <div class="theme-switch-wrapper">
+               <label class="theme-switch" for="themeToggle">
+                  <input type="checkbox" id="themeToggle">
+                  <div class="slider round">
+                     <i class="fas fa-moon icon moon"></i>
+                     <i class="fas fa-sun icon sun"></i>
+                  </div>
+               </label>
+            </div>
+         </nav>
+      </div>
+   </header>
+
+   <section class="hero" id="home">
+      <div class="container">
+         <h1>Hi, I'm C<span class="highlight">R</span></h1>
+         <p class="subtitle">Frontend Developer specializing in HTML, CSS, JavaScript, Bootstrap and Tailwind CSS.</p>
+         <div class="hero-buttons">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+         </div>
+      </div>
+   </section>
+
+   <section id="skills" class="skills-section">
+      <div class="container">
+         <h2 class="section-title">My <span>Skills</span></h2>
+         <div class="skills-container" id="skillsSlider">
+            <div class="skill-category active">
+               <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+               <div class="skill-tags">
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">Bootstrap</span>
+                  <span class="skill-tag">Tailwind CSS</span>
+                  <span class="skill-tag">Responsive Design</span>
+               </div>
+            </div>
+
+            <div class="skill-category">
+               <h3><i class="fas fa-code-branch"></i> Version Control</h3>
+               <div class="skill-tags">
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">GitHub</span>
+                  <span class="skill-tag">GitLab</span>
+               </div>
+            </div>
+
+            <div class="skill-category">
+               <h3><i class="fas fa-paint-brush"></i> Design</h3>
+               <div class="skill-tags">
+                  <span class="skill-tag">WordPress</span>
+                  <span class="skill-tag">UI/UX</span>
+                  <span class="skill-tag">PicsArt</span>
+               </div>
+            </div>
+
+            <div class="skill-category">
+               <h3><i class="fas fa-cogs"></i> Tools</h3>
+               <div class="skill-tags">
+                  <span class="skill-tag">VS Code</span>
+                  <span class="skill-tag">Chrome DevTools</span>
+                  <span class="skill-tag">NPM</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="projects">
+      <div class="container">
+         <h2 class="section-title">My <span>Projects</span></h2>
+         <div class="projects-grid">
+            <div class="project-card">
+               <div class="project-image">
+                  <img
+                     src="https://media.istockphoto.com/id/1165505236/photo/asian-man-uses-digital-tablet-to-lean-plank-position.webp?a=1&b=1&s=612x612&w=0&k=20&c=wvFxtSyND-BMLgiQjYw2J1S1TNbi3Z1TWxSySDfb5OA="
+                     alt="fitness">
+               </div>
+               <div class="project-info">
+                  <h3 class="project-title">Fitness</h3>
+                  <p class="project-description">A fitness website showcasing workout plans, nutrition tips, and health
+                     advice, built with HTML, CSS, and JavaScript.</p>
+                  <div class="project-tags">
+                     <span class="project-tag">HTML</span>
+                     <span class="project-tag">CSS</span>
+                     <span class="project-tag">JavaScript</span>
+                  </div>
+                  <div class="project-links">
+                     <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                     <a href="https://github.com/chanchalr04/fitness.git" target="_blank"><i class="fab fa-github"></i>
+                        Code</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="project-card">
+               <div class="project-image">
+                  <img
+                     src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                     alt="Portfolio Project">
+               </div>
+               <div class="project-info">
+                  <h3 class="project-title">Personal Portfolio</h3>
+                  <p class="project-description">A responsive portfolio website showcasing my projects and skills.</p>
+                  <div class="project-tags">
+                     <span class="project-tag">HTML</span>
+                     <span class="project-tag">CSS</span>
+                     <span class="project-tag">JavaScript</span>
+                  </div>
+                  <div class="project-links">
+                     <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                     <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="project-card">
+               <div class="project-image">
+                  <img
+                     src="https://media.istockphoto.com/id/1488400461/photo/chat-with-ai-or-artificial-intelligence-technology-man-using-a-laptop-computer-chatting-with.webp?a=1&b=1&s=612x612&w=0&k=20&c=m6kbkfkmrr1wIYI301INBe4UihGI99C9Qp5QklqDLDs="
+                     alt="ChatGPT">
+               </div>
+               <div class="project-info">
+                  <h3 class="project-title">ChatGpt Clone</h3>
+                  <p class="project-description">A ChatGPT clone that simulates AI-based conversations using a frontend
+                     interface.</p>
+                  <div class="project-tags">
+                     <span class="project-tag">HTML</span>
+                     <span class="project-tag">CSS</span>
+                     <span class="project-tag">JavaScript</span>
+                  </div>
+                  <div class="project-links">
+                     <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                     <a href="https://github.com/chanchalr04/ChatGpt-FrontEnd-Clone.git" target="_blank"><i
+                           class="fab fa-github"></i> Code</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="resume">
+      <div class="container">
+         <h2 class="section-title">My <span>Resume</span></h2>
+         <div class="resume-container">
+            <div class="resume-header">
+               <h1 class="resume-name">Chanchal</h1>
+               <p class="resume-title">Frontend Developer</p>
+            </div>
+
+            <div class="resume-section">
+               <h2 class="resume-section-title">Education</h2>
+               <div class="resume-item">
+                  <div class="resume-item-header">
+                     <h3 class="resume-item-title">Bachelor of Computer Application</h3>
+                     <span class="resume-item-date">2020 - 2023</span>
+                     <span>
+                        <p>CGPA - 8.3</p>
+                     </span>
+                  </div>
+               </div>
+               <p class="resume-item-subtitle">Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidyalaya, Bhopal </p>
+            </div>
+            <div class="resume-item-header">
+               <h3 class="resume-item-title">Master of Computer Application</h3>
+               <span class="resume-item-date">2024 - 2026(expected)</span>
+               <!-- <span><p> In future </p></span> -->
+            </div>
+            <p class="resume-item-subtitle">LNCTU,Bhopal</p>
+            <p class="resume-item-description">AI/ML</p>
+            <span>.....</span>
+         </div>
+      </div>
+      <div class="btn">
+         <a href="https://drive.google.com/file/d/1fFDIhnNqrjWEjhSGX8e_m07OetjLyB3V/view?usp=drive_link"
+            class="btn download-btn">Download Resume</a>
+      </div>
+
+      </div>
+      </div>
+   </section>
+
+   <section id="certificates">
+      <div class="container">
+         <h2 class="section-title">My <span>Certificates</span></h2>
+         <div class="certificates-container">
+            <div class="certificate-card">
+               <div class="certificate-header">
+                  <div class="certificate-icon">
+                     <i class="fas fa-code"></i>
+                  </div>
+                  <div>
+                     <div class="certificate-title">FrontEnd Development</div>
+                     <div class="certificate-issuer">Codes Learning</div>
+                  </div>
+               </div>
+               <span class="certificate-date">June 2023</span>
+               <a href="https://drive.google.com/file/d/1E3hAFah6cS-Mjte5vJrsRbsl9z7npm38/view?usp=drive_link"
+                  class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="certificate-card">
+               <div class="certificate-header">
+                  <div class="certificate-icon">
+                     <i class="fas fa-robot"></i>
+                  </div>
+                  <div>
+                     <div class="certificate-title">AI Prompt Engineering</div>
+                     <div class="certificate-issuer">Simplilearn</div>
+                  </div>
+               </div>
+               <span class="certificate-date">17 Jan 2025</span>
+               <a href="https://drive.google.com/file/d/1yRPZshL56qHzWMuvLOnoCjUQgwR2ZDnO/view?usp=drive_link"
+                  class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <div class="certificate-card">
+               <div class="certificate-header">
+                  <div class="certificate-icon">
+                     <i class="fas fa-brain"></i>
+                  </div>
+                  <div>
+                     <div class="certificate-title">AI Internship</div>
+                     <div class="certificate-issuer">Code Alpha</div>
+                  </div>
+               </div>
+               <span class="certificate-date">16 Mar 2025</span>
+               <a href="https://drive.google.com/file/d/1OHg0WlTppOCcBQE4pnkbzydLM98INcny/view?usp=drive_link"
+                  class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="contact">
+      <div class="container">
+         <h2 class="section-title">Contact <span>Me</span></h2>
+         <div class="contact-container">
+            <div class="contact-info">
+               <div class="contact-item">
+                  <div class="contact-icon">
+                     <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-text">
+                     <h3>Email</h3>
+                     <p>chanchal.raikwar0424@gmail.com</p>
+                  </div>
+               </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+               <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-control" required>
+               </div>
+               <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-control" required>
+               </div>
+               <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" class="form-control" required></textarea>
+               </div>
+               <button type="submit" class="btn">Send Message</button>
+            </form>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+      <div class="container">
+         <div class="social-links">
+            <a href="https://github.com/chanchalr04" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/chanchal-raikwar-r404?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+               target="_blank"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+         <p class="copyright">© <span id="year"></span> CR. All rights reserved.</p>
+      </div>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
